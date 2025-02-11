@@ -1,0 +1,23 @@
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 100;
+}
+
+.yes-button, .no-button {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 100;
+}
+
+.no-button {
+    transition: all 0.3s ease;
+}
